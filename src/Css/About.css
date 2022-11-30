@@ -1,0 +1,19 @@
+.about-meContainer{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+.leftaboutme{
+    flex-basis: 40%;
+    margin-top: 21.44px;
+}
+.rightaboutme{
+    flex-basis: 20%;
+    margin-top: 21.44px;
+}
+h1{
+    margin-bottom: 1rem;
+}
+h2{
+    margin-bottom: 1rem;
+}
