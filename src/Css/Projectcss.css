@@ -17,4 +17,8 @@ article{
     padding:40px;
     width: 40rem;
     margin-bottom: .5rem;
+    
+}
+article:hover{
+    transform: scale(1.1);
 }

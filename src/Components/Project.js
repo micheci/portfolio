@@ -2,16 +2,16 @@ import React from 'react'
 import '../Css/Projectcss.css'
 
 
-const Project = () => {
+const Project = ({siteName,lang,title,desc}) => {
   return (
     <div>
         <article>
-            <a href='https://www.google.com/'>
+            <a href={siteName}>
                 <p className='projectLang'>
-                    React
+                    {lang}
                 </p>
-                <h3 className="projectTitle">Picture in sky</h3>
-                <p className='projectDesc'>Shows space pictures depedning on day in HTML,CSS,JAVASCRIPT</p>
+                <h3 className="projectTitle">{title}</h3>
+                <p className='projectDesc'>{desc}</p>
             </a>
         </article>
     </div>
