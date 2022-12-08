@@ -5,9 +5,9 @@ const Projects = () => {
   return (
     <div className='projects-container'> 
         <Project />
-        <br></br>
+        
         <Project/>
-        <br></br>
+        
         <Project/>
     </div>
   )

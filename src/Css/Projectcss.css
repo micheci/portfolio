@@ -1,7 +1,20 @@
-p{
-    color:black;
+.projectLang{
+    color:white
     
+}
+.projectTitle{
+    color:white;
+}
+.projectDesc{
+    color:#949495
 }
 a{
     text-decoration: none;
+}
+article{
+    background-color: #202022;
+    border: 1px solid black;
+    padding:40px;
+    width: 40rem;
+    margin-bottom: .5rem;
 }

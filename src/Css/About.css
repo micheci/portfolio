@@ -2,10 +2,12 @@
     width: 100%;
     display:flex;
     justify-content: space-around;
+    position: relative;
 }
 .leftaboutme{
     flex-basis: 40%;
     margin-top: 21.44px;
+    color:#949495
 }
 .rightaboutme{
     flex-basis: 20%;
@@ -13,7 +15,17 @@
 }
 h1{
     margin-bottom: 1rem;
+    color: white;
 }
 h2{
     margin-bottom: 1rem;
+    color: white;
+}
+.icons{
+    position: absolute;
+    bottom: 0px;
+    
+}
+span{
+    margin-right: 2rem;
 }
