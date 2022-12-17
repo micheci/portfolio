@@ -14,8 +14,8 @@ const AboutMe = () => {
               I am always trying to improve programming wise and in real life to hopefully inspire my loved ones.
             </p>
             <div className="icons">
-              <FaGithub/> <span>GitHub</span>
-              <FaTwitterSquare/> <span>Twitter</span>
+              <a href='https://github.com/micheci'> <FaGithub/> <span>GitHub</span></a>
+              <a href='https://twitter.com/icehcim'><FaTwitterSquare/> <span>Twitter</span></a>
             </div>
             
         </div>
