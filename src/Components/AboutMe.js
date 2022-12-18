@@ -1,6 +1,5 @@
 import React from 'react'
 import Projects from './Projects'
-import Aboutcss from '../Css'
 import {FaGithub} from 'react-icons/fa'
 import {FaTwitterSquare} from 'react-icons/fa'
 
