@@ -4,6 +4,7 @@ import Project from './Project'
 const Projects = () => {
   return (
     <div className='projects-container'> 
+      <h1>Recent Work</h1>
 
         <Project desc="Your go-to for anything financial in your life,from investmenests to spending habits" title="Financial" siteName="https://dos-streams-production.up.railway.app/" lang="JavaScript,EJS" />
 
