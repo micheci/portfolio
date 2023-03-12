@@ -1,5 +1,7 @@
 import React from 'react'
 import Projects from './Projects'
+import ContactUs from './ContactUs'
+import Navbar from './Navbar'
 import {FaGithub} from 'react-icons/fa'
 import {FaTwitterSquare} from 'react-icons/fa'
 import '../Css/Projectcss.css'
@@ -22,10 +24,13 @@ const AboutMe = () => {
         </div>
 
         <div className="rightaboutme">
+            <Navbar/>
             <Projects/>
+            <ContactUs/>
             
         </div>
     </div>
+    
 
   )
 }

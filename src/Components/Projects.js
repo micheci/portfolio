@@ -2,9 +2,10 @@ import React from 'react'
 import Project from './Project'
 
 const Projects = () => {
-  return (
+  return (  <>
+  <h1 className='projectTitle'>Recent Work</h1>
     <div className='projects-container'> 
-      <h1>Recent Work</h1>
+    
 
         <Project desc="Your go-to for anything financial in your life,from investmenests to spending habits" title="Financial" siteName="https://dos-streams-production.up.railway.app/" lang="JavaScript,EJS" />
 
@@ -18,6 +19,7 @@ const Projects = () => {
 
         <Project desc="Full Stack page with Auth to watch 2 streams at once" title="Dos Streams" siteName="https://dos-streams-production.up.railway.app/" lang="JavaScript,EJS" />
     </div>
+    </>
   )
 }
 
