@@ -70,5 +70,6 @@ span{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: start;
-    overflow-y: auto
+    overflow-y: auto;
+    overflow-x: scroll;
 }

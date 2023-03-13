@@ -1,10 +1,26 @@
 import React from 'react'
 import Project from './Project'
 
+
+
+
 const Projects = () => {
+  const ref =  React.createRef(null);
+
+  const scroll = (scrollOffset) => {
+    ref.current.scrollLeft += scrollOffset;
+  };
+  
   return (  <>
+  
+
+
+  
   <h1 className='projectTitle'>Recent Work</h1>
-    <div className='projects-container'> 
+  <button onClick={() => scroll(-20)}>Next</button>
+  <button onClick={() => scroll(20)}>RIGHT</button>
+
+    <div  className='projects-container'> 
     
 
         <Project desc="Your go-to for anything financial in your life,from investmenests to spending habits" title="Financial" siteName="https://dos-streams-production.up.railway.app/" lang="JavaScript,EJS" />
